@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 400px;
+  color: #fff;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: rgb(69, 73, 121);
+  
+}
+
+.right {
+  right: 0;
+  background-color: rgb(95, 96, 107);
+  
+}
+
+.main .fees {
+    margin-top: 100px;
+  float: left;
+  width: 30%;
+}
+.main .fees img {
+  width: 50px;
+}
+.main .fees p{
+  font-size: 20px;
+}
+.main h1{font-size: 60px;}
+.main p{
+    font-size: 30px;
+}
+.main span{
+    color: blueviolet;
+}
+.aside img{
+  width: 1000px;
+}
+@media screen and (min-width:468px) screen and (orientation:portrait)
+{
+    .left .right{
+        height: 100vh;
+    } 
+    
+}

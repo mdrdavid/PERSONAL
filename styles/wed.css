@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+
+}
+
+.features {
+	margin:auto;
+	padding: 1em;
+	position: relative;
+}
+.feature-1 {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.features button {
+    border:1px solid #6ab446;
+    background:#a5e70b;
+    
+    border-radius: 15;
+    color:#fff;
+    margin: auto;
+    width: 100%;
+    
+}
+.features button:hover {
+	border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+.container .join{
+    color: rgb(6, 247, 235);
+}
+.container .info{
+    font-size: 24px;
+    color: rgb(0, 255, 213);
+}
+.container .description{
+    font-size: 16px;
+    color: darkgrey;
+}
+.features{
+    background-color: lightseagreen;
+    color: #fff;
+}
+.features h1{
+    font-size: 18px;
+
+}
+.features h2{
+    font-size: 36px;
+}
+.features h3{
+    font-size: 18px;
+}
+.features span{
+    font-size: 16px;
+}
+
+.features-1{
+    margin-top: 0;
+    background-color: lightseagreen;
+    color: #fff;
+}
+.feature-1 h1{
+    font-size: 18px;
+}
+.feature-1 p{
+    font-size: 16px;
+}
+
+/* more on media query*/
+@media screen and (max-width:768px)
+{
+    
+    
+}
+
+
+
+
