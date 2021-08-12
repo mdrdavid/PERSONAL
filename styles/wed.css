@@ -37,6 +37,10 @@ body{
     background:#fff;
     color:#000;
 }
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
 .container .join{
     color: rgb(6, 247, 235);
 }
